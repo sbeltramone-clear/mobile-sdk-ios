@@ -3,6 +3,7 @@
 //
 
 import Spreedly
+import Foundation
 
 /// Allows this control to return it's text property as a SpreedlySecureOpaqueString.
 /// Recommended for use with card verification value.

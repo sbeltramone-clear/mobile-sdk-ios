@@ -30,6 +30,19 @@ And run the following command from the command line:
 pod repo add spreedly https://github.com/spreedly/mobile-sdk-ios.git podspecs_repo
 ```
 
+## Installation using Swift Package Manager
+
+The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler. 
+
+Once you have your Swift package set up, adding Spreadly as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift`.
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/spreedly/mobile-sdk-ios.git", .upToNextMajor(from: "5.5.0"))
+]
+```
+
+Or you can use Xcode visual tool, entering the clone URL into the panel and then selecting the target you want: Spreedly, SpreedlyCocoa or both.
 ## Express
 Collect and select payment methods including Apple Pay with the SDK's Express tools.
 

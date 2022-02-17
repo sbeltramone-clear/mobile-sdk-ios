@@ -230,6 +230,8 @@
 		442A2F11C1E2D8471A4F0D8A /* SpreedlyCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpreedlyCocoa.h; sourceTree = "<group>"; };
 		442A2FFB6CFF85B8207B2668 /* SpreedlyClientImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpreedlyClientImpl.swift; sourceTree = "<group>"; };
 		A60A023F278795FF0044BD69 /* SpreedlyVersion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpreedlyVersion.swift; sourceTree = "<group>"; };
+		DE8FF64827BEC7B3006ACCCE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DE8FF64A27BECF30006ACCCE /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Express.strings; sourceTree = "<group>"; };
 		F076C01B32752F1BF35F1FDA /* CardRanges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardRanges.swift; sourceTree = "<group>"; };
 		F076C0612AC1EBFC034D3DC8 /* CreditCardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardTests.swift; sourceTree = "<group>"; };
 		F076C08DC0FAE8689BD37423 /* PaymentMethodItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethodItem.swift; sourceTree = "<group>"; };
@@ -926,6 +928,7 @@
 			children = (
 				3C0553D724ABF6DF00F31DA3 /* Base */,
 				3C0553E524ABFE5500F31DA3 /* en */,
+				DE8FF64A27BECF30006ACCCE /* English */,
 			);
 			name = Express.storyboard;
 			sourceTree = "<group>";
@@ -934,6 +937,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3C0553E224ABFDFD00F31DA3 /* en */,
+				DE8FF64827BEC7B3006ACCCE /* es */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

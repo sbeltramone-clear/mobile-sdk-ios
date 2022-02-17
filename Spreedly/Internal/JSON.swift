@@ -135,7 +135,6 @@ extension Dictionary where Key == String, Value == Any {
         }
     }
 
-#if SPREEDLY_CORE
     mutating func setOpaqueString(_ key: String, _ value: SpreedlySecureOpaqueString?) throws {
         guard let unwrappedValue = value else {
             return
@@ -145,5 +144,4 @@ extension Dictionary where Key == String, Value == Any {
         }
         self[key] = value.internalToString()
     }
-#endif
 }

@@ -1,6 +1,7 @@
 //
 // Created by Eli Thompson on 6/29/20.
 //
+import Foundation
 
 @objc(SPRExpirationDateProvider)
 public protocol ExpirationDateProvider: class {
